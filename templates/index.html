@@ -1,0 +1,33 @@
+{{define "index"}}
+
+{{template "header"}}
+
+{{range $key, $value := .}}
+<div class="row">
+	<div class="col-xs=2">
+		
+	</div>
+	<div class="col-xs=8">
+		<h3><a href="/edit?id={{$key}}">{{$value.Title}}</a></h3>
+	</div>
+	<div class="col-xs=2">
+		
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-xs=2">
+		
+	</div>
+	<div class="col-xs=8">
+		<h3>{{$value.Content}}</h3>
+	</div>
+	<div class="col-xs=2">
+		
+	</div>
+</div>
+{{end}}
+
+{{template "footer"}}
+
+{{end}}
