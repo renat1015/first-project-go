@@ -20,10 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3464c497-4b20-40ab-87ab-ce2a58a0ed92" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/core/post.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/post.go" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project.go" beforeDir="false" afterPath="$PROJECT_DIR$/project.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/write.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/write.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +37,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,6 +77,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build projectGo" />
+        <item itemvalue="Go Build.go build projectGo" />
       </list>
     </recent_temporary>
   </component>
@@ -91,6 +95,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -104,22 +109,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600668034130" />
-    <state width="1322" height="177" key="GridCell.Tab.0.bottom" timestamp="1602964186922">
+    <state width="1322" height="335" key="GridCell.Tab.0.bottom" timestamp="1604247352797">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1322" height="177" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1602964186922" />
-    <state width="1322" height="177" key="GridCell.Tab.0.center" timestamp="1602964186921">
+    <state width="1322" height="335" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1604247352797" />
+    <state width="1322" height="335" key="GridCell.Tab.0.center" timestamp="1604247352796">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1322" height="177" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1602964186921" />
-    <state width="1322" height="177" key="GridCell.Tab.0.left" timestamp="1602964186921">
+    <state width="1322" height="335" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1604247352796" />
+    <state width="1322" height="335" key="GridCell.Tab.0.left" timestamp="1604247352795">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1322" height="177" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1602964186921" />
-    <state width="1322" height="177" key="GridCell.Tab.0.right" timestamp="1602964186922">
+    <state width="1322" height="335" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1604247352795" />
+    <state width="1322" height="335" key="GridCell.Tab.0.right" timestamp="1604247352796">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1322" height="177" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1602964186922" />
+    <state width="1322" height="335" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1604247352796" />
+    <state x="511" y="70" key="RollbackChangesDialog" timestamp="1604247133541">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="511" y="70" key="RollbackChangesDialog/0.0.1366.738@0.0.1366.738" timestamp="1604247133541" />
     <state x="0" y="0" width="585" height="738" key="find.popup" timestamp="1602963719130">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
